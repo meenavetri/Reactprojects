@@ -10,12 +10,12 @@ import menus from './components/tree-view/data'
 function App() {
   return (
     <>
-      {/* <Accordian/> */}
-      {/* <RandomColor/> */}
-      {/* <Rating /> */}
-      {/* <ImageSlider url={"https://picsum.photos/v2/list"} 
-      page={'1'} limit={'10'}/> */}
-      {/* <LoadMoreData/> */}
+      <Accordian/>
+      <RandomColor/>
+      <Rating />
+      <ImageSlider url={"https://picsum.photos/v2/list"} 
+      page={'1'} limit={'10'}/>
+      <LoadMoreData/>
       <TreeView menus={menus}/>
     </>
   )
